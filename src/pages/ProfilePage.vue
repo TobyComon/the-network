@@ -87,6 +87,8 @@
   </div>
         </div>
         <!-- FIXME Add next and previous (similar to home page) -->
+
+        <!-- REVIEW Do I need to make a totalPages and Page in the appstate for the profiles?? -->
     </div>
 </template>
 

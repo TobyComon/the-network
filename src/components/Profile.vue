@@ -20,6 +20,7 @@ export default {
         }
     },
     // FIXME missing profile prop
+   // REVIEW I have props here, but what do I do with them to make it so that it loads the same profile on refresh? 
     setup(props){
         const route = useRoute()
 
