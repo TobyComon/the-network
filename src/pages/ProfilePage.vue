@@ -27,6 +27,9 @@
                 <div class="ms-5" v-if="profile.id == account.id">
                     <CreatePost />
                 </div>
+                <div class="col-md-3">
+                    <Dad />
+                </div>
             </div>
             <form v-else @submit.prevent="editAccount">
                 <div class="mb-3">
