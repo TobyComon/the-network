@@ -10,5 +10,7 @@ export const AppState = reactive({
   profilSearchResults: [],
   dads: [],
   page: 1,
-  totalPages: ''
+  totalPages: '',
+  newer: null,
+  older: null
 })

@@ -24,7 +24,7 @@ const routes = [
   },
   // FIXME profiles needs a :id
   {
-    path: '/profiles/',
+    path: '/profiles/:id',
     name: 'Profile',
     component: loadPage('ProfilePage')
   },
